@@ -1,0 +1,41 @@
+.header {
+  padding: 20px 0;
+  display: flex; }
+
+.header__logo {
+  font-size: 30px;
+  font-weight: bold;
+  width: 10%; }
+
+.main-nav {
+  width: 90%;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between; }
+
+.main-nav__list {
+  display: flex;
+  margin-left: 20px; }
+
+.main-nav__item {
+  margin-left: 20px;
+  opacity: 0.6; }
+  .main-nav__item:hover {
+    opacity: 1; }
+  .main-nav__item:active {
+    opacity: 0.3; }
+
+.main-nav__item--active {
+  opacity: 1; }
+
+.main-nav__extra-list {
+  display: flex; }
+
+.main-nav__extra-item--email {
+  margin-left: 40px; }
+  .main-nav__extra-item--email:hover {
+    opacity: 0.6; }
+  .main-nav__extra-item--email:active {
+    opacity: 0.3; }
+  .main-nav__extra-item--email span {
+    vertical-align: -2px; }

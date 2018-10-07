@@ -1,0 +1,39 @@
+.download {
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 260px;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  position: relative; }
+
+.download__box {
+  width: 400px;
+  position: relative; }
+  .download__box::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 946px;
+    height: 610px;
+    bottom: -260px;
+    left: 250px; }
+
+.download__box-title {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 10px; }
+
+.donwload__box-description {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px; }
+
+.download__box-text {
+  font-size: 14px;
+  color: #9dc7d1;
+  margin-bottom: 20px; }
